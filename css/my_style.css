@@ -1,0 +1,135 @@
+body{
+    background-color: #e3ecf2
+}
+.form_wizard{
+    margin-top: 100px
+}
+.form_wizard > div:first-child{
+    height: 500px;
+    background-color: #ff5e00
+}
+.form_wizard_icon img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 80px
+}
+.form_wizard_title{
+    color: white;
+    text-align: center                         
+}
+.form_wizard_title p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Raleway';
+    line-height: 24.99px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    text-align: center;
+    margin-top: 20px
+}
+.form_wizard_login_rx{
+    position: absolute;
+    bottom: 10px;
+    width: 100%
+}
+.form_wizard_login_rx > div{
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    margin-right: 10px
+}
+.form_wizard_content{
+    background-color: #537785;
+    border-left: none;
+    padding: 0px
+}
+.form_wizard_header{
+    background-color: #e3ecf2;
+}
+.form_wizard_header .active{
+    height: 65px;
+    width: 120px;
+    background-color: #537785;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer
+}
+.form_wizard_header .disable{
+    height: 65px;
+    width: 120px;
+    background-color: #72909b;
+    border-right: #2e5b6b 2px solid;
+    border-bottom: #56727c 3px solid;
+    text-align: center;
+    padding-top: 5px;
+    color: #537785;
+    font-weight: bold;
+    cursor: pointer
+}
+.form_wizard_footer input{
+    width: 100%;
+    height: 38px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom,#f9a934,#f47e13)                               
+}
+.form_wizard_form{
+    padding-top: 30px
+}
+.form_item input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #465d66;
+    border: #40555d 1px solid;
+    padding-left: 10px
+}
+.form_item label{
+    display: block;
+    color: white;
+    font-weight: bold
+}
+.form_item > div{
+    margin-bottom: 15px
+}
+.form_item input[type=radio]{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+.form_image{
+    padding-top: 100px
+}
+.form_image label{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #72909b;
+    border: #40555d 5px solid;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #40555d;
+    font-size: 18px
+}
+.form_image label:hover{
+    border-top-color: #ff5e00;
+    color: #ff5e00
+}
+@media(min-width: 500px){
+    .form_wizard_form{
+        height: 380px;
+    }
+}
+@media(max-width: 500px){
+    .form_wizard_footer{
+        margin-bottom: 20px
+    }
+}
